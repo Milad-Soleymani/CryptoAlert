@@ -316,6 +316,8 @@ section div p {
     font-size: 30px;
 }
 
+/* ///////////////////////////////// */
+
 @media screen and (max-width: 850px) {
     .section1 {
         width: 410px;
