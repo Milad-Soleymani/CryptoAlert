@@ -1,0 +1,374 @@
+@font-face {
+    font-family: DubaiLight;
+    src: url(../fonts/DUBAI-LIGHT.TTF);
+}
+
+
+@font-face {
+    font-family: DubaiMedium;
+    src: url(../fonts/DUBAI-MEDIUM.TTF);
+}
+
+
+@font-face {
+    font-family: Dubai;
+    src: url(../fonts/DUBAI-REGULAR.TTF);
+}
+
+
+@font-face {
+    font-family: DubaiBold;
+    src: url(../fonts/DUBAI-BOLD.TTF);
+}
+
+
+* {
+    font-family: DubaiLight;
+}
+
+.firstSection {
+    background-color: #3c3c3c;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    background-color: #3c3c3c;
+
+}
+
+
+.titleImg {
+    width: 430px;
+    margin-top: 15%;
+    margin-right: 0;
+}
+
+.picture {
+    margin-right: 8%;
+}
+
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-bottom: 5.2%;
+    background-color: gray;
+    box-shadow: 10px 10px 10px rgb(30, 30, 30);
+    border-radius: 20px;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 8%;
+}
+
+.h1title {
+    font-size: 42px;
+    background: -webkit-linear-gradient(#b673cc, #49c7d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.title p {
+    font-size: 28px;
+}
+
+.section2 div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 5px 5px 5px #f0f0f0;
+}
+
+.section2 {
+    background-color: #3c3c3c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imgOfPart1 {
+    margin: 10px;
+    width: 90%;
+    margin-top: 37px;
+}
+
+.imgOfPart4 {
+    width: 125px;
+    margin-top: 10px;
+}
+
+.section2 p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.section2 div h2 {
+    font-weight: normal;
+    font-family: Dubai;
+    font-size: 20px;
+}
+
+.section2 .part3 img {
+    width: 44%;
+}
+
+section div p {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: DubaiLight;
+}
+
+.section2 .part2 img {
+    width: 250px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+    background-color: #000;
+    width: 100%;
+    color: white;
+}
+
+.section3>h2>a {
+    text-decoration: none;
+    color: white;
+}
+
+.section3 h2 {
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+
+
+/* ! ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.coinParts {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.BTC {
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: inset -2px -2px 100px 0 #e4b220;
+    backdrop-filter: blur(1.3px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin: 15px;
+    width: 450px;
+    height: 605px;
+    text-align: center;
+}
+
+.BTC>h2 {
+    font-family: DubaiLight;
+    font-size: 40px;
+    margin-left: 0;
+}
+
+.coinParts>div>img {
+    width: 50%;
+}
+
+
+
+.coinParts>BTC>.changeLogoBTC {
+    display: inline;
+    width: 10px;
+}
+
+.ETH {
+    margin-left: 50px;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: inset -2px -2px 100px 0 #7a9ae0;
+    backdrop-filter: blur(14.3px);
+    -webkit-backdrop-filter: blur(14.3px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin-top: 15px;
+    width: 550px;
+    height: 290px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.ETH>.infoETH>p {
+    display: inline;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.pre {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.infoETH>h2 {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.ETH>.infoETH>h3 {
+    padding: 0;
+}
+
+
+.coinParts>div>h3 {
+    text-align: left;
+    display: inline;
+    margin-left: 0;
+    font-size: 100px;
+}
+
+.coinParts>div>p {
+    display: inline;
+    margin-top: 0;
+    font-size: 18px;
+    text-align: right;
+}
+
+.changeOfETHTxt {
+    display: inline;
+    font-size: 30px;
+}
+
+.changeOfBTCTxt {
+    font-size: 1px;
+}
+
+.ETH {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.ETH>img {
+    width: 300px;
+}
+
+.ETH>h2 {
+    height: 100px;
+}
+.infoETH {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.ETH>div>p {
+    font-size: 1000px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.TRX>img {
+    width: 250px;
+}
+
+.TRX {
+    display: flex;
+    flex-direction: row-reverse;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: inset -2px -2px 100px 0 #ad0408;
+    backdrop-filter: blur(14.3px);
+    -webkit-backdrop-filter: blur(14.3px);
+    border: 1px solid rgba(255, 255, 255, 1);
+
+}
+
+
+.infoTRX {
+    margin-right: 17px;
+}
+
+.TRX>img {
+    width: 300px;
+}
+
+.changeOfTRXTxt {
+    margin-bottom: 1px;
+    font-family: DubaiLight;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 850px) {
+    .section1 {
+        width: 410px;
+        height: 100%;
+        margin-top: 10%;
+    }
+
+    .title {
+        padding: 0;
+        margin: 0;
+        margin-right: 20px;
+        width: 250px;
+        height: 230px;
+        box-shadow: none;
+        margin: 10px;
+    }
+
+    .section1 div p {
+        font-size: 15px;
+    }
+
+    .section1 img {
+        width: 150px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    .titleP {
+        font-size: 1px;
+        padding-bottom: 100px;
+        padding: 0;
+    }
+
+    .h1title {
+        font-size: 20px;
+    }
+
+    .section2 div {
+        width: 85%;
+        margin-left: 7%;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .section2 .part3 {
+        height: 10%;
+    }
+
+    .section3{
+        display: none;
+    }
+    
+
+}

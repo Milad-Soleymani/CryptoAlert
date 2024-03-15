@@ -1,0 +1,89 @@
+@font-face {
+    font-family: BlackSword;
+    src: url(../fonts/Blacksword.otf);
+}
+
+.rootFooter{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #000;
+}
+
+.heading{
+    font-family: BlackSword;
+    font-size: 50px;
+    color: #1286eb;
+    margin-left: 100px;
+}
+
+.ltFooter{
+    margin-right: 100px;
+}
+
+.ltFooter > p {
+    color: white;
+    font-size: 20px;
+}
+
+.IRImg{
+    width: 30px;
+}
+
+.SocialMedias{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+#X{
+    color: #fff;
+    margin-left: 100px;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 10px;
+    transition: color 1s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#X:hover{
+    color: #1286eb;
+}
+
+.GitHub{
+    width: 10px;
+}
+
+.mainImg{
+    width: 40%;
+}
+
+.ltFooter{
+    margin-right: 20%;
+}
+
+.github{
+    width: 50px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 700px) {
+    .mainImg{display: none;
+    }
+    .heading{
+        font-size: 20px;
+        margin-left: 80px;
+
+    }
+    .ltFooter>p{
+        margin-left: 80px;
+    }
+    .rootFooter{
+        text-align: center;
+    }
+    .ltFooter{
+        text-align: center;
+    }
+}

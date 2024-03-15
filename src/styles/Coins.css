@@ -1,0 +1,245 @@
+@font-face {
+    font-family: BinancePlex;
+    src: url(../fonts/Binance\ PLEX.ttf);
+}
+
+.rootOfPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #181a20;
+}
+
+.rootOfPage>h1 {
+    color: aliceblue;
+}
+
+.MostPop {
+    color: white;
+    border-radius: 50px;
+    display: inline;
+    width: 40%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    padding-bottom: 20px;
+}
+
+.MostPop>div {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    background-color: inherit;
+    transition: background-color 0.7s ease-in-out;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.MostPop>div:hover {
+    background-color: #1e2026;
+}
+
+.price {
+    font-size: 20px;
+}
+
+
+.MostPop>div>img {
+    width: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.MostPop>div>p {
+    margin-bottom: 100px;
+}
+
+.pOfMost {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.PriceMost {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-family: BinancePlex;
+}
+
+.DOGEPartPop {
+    border-bottom: 0;
+}
+
+.precentChange {
+    margin-top: 12px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: BinancePlex;
+}
+
+
+.Coins {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+
+
+.Coins>div {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.list:hover {
+    background-color: #3c3c3c;
+}
+
+.Coins>div>img {
+    width: 70px;
+    margin: 10px;
+    margin-right: 245px;
+}
+
+
+.Coins>div>p {
+    font-family: BinancePlex;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: white;
+}
+
+
+.CoinName {
+    margin-left: 1%;
+    width: 1000px;
+}
+
+.precentChangeCoin {
+    font-size: 30px;
+}
+
+.exCoin {
+    margin-left: 0px;
+}
+
+
+
+
+.list>.CoinName {
+    width: 100px;
+}
+
+.CoinIconex {
+    margin-right: 200px;
+    margin-left: 14px;
+    margin-bottom: 10px;
+}
+
+.CoinNameex {
+    margin-left: 60px;
+}
+
+.CoinPriceex {
+    margin-right: 170px;
+    margin-left: 175px;
+}
+
+.example {
+    margin-right: 165px;
+}
+
+
+.precentChangeCoin {
+    font-size: 30px;
+
+}
+
+.list>.precentChangeCoin {
+    font-size: 20px;
+}
+
+
+.SOLImg {
+    width: 1px;
+}
+
+.BTCPart>.athBTC {
+    margin: 0;
+}
+
+.CoinName {
+    margin: 0;
+}
+
+.list>.price {
+    width: 400px;
+}
+
+.list>.precentChangeCoin {
+    width: 170px;
+}
+
+.list>.ath {
+    width: 320px;
+}
+
+
+@media screen and (max-width: 750px) {
+    .Coins>div {
+        width: 50%;
+        background-color: #181a20;
+        margin-right: 0;
+    }
+
+    html {
+        width: 100%;
+        margin: 0;
+    }
+
+    .Coins {
+        width: 100%;
+        margin: 0;
+    }
+
+    .rootOfPage {
+        width: 100%;
+    }
+
+    .Coins>div>img {
+        margin-right: 10px;
+
+    }
+
+    .Coins>div>p {
+        margin-right: 10px;
+    }
+
+    .MostPop {
+        display: none;
+    }
+
+    .ExPart>p {
+        margin-left: 20px;
+        font-size: 15px;
+        margin-right: 1px;
+    }
+
+    .list>.ath {
+        width: 100px;
+        margin-right: 20px;
+    }
+}
